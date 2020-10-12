@@ -22,7 +22,7 @@ export PYTHONPATH=.
 
 This is the **valid_loss** in tensorboard:
 
-<img src="C:\Users\jzy\AppData\Roaming\Typora\typora-user-images\image-20201013001612361.png" alt="image-20201013001612361" style="zoom:67%;" />
+<img src="https://github.com/DangerousQiang/SSAD/edit/main/images/valid_loss.png" alt="image-20201013001612361" style="zoom:67%;" />
 
 The pretrained SSAD encoder model has been trained for the 99 epochs (in my experience, you can trained it for 200 epochs for best appearance), and the classifier is casually trained by me. The results and URLs are as follows.
 
