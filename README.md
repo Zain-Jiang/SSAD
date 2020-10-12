@@ -17,7 +17,7 @@ export PYTHONPATH=.
 ## Pre-trained Model
 This is the **valid_loss** in tensorboard:
 
-<img src="https://github.com/DangerousQiang/SSAD/blob/main/images/valid_loss.png" alt="image-20201013001612361" style="zoom:45%;" />
+<img src="https://github.com/DangerousQiang/SSAD/blob/main/images/valid_loss.png" alt="image-20201013001612361" style="zoom:30%;" />
 
 The pretrained SSAD encoder model has been trained for the 99 epochs (in my experience, you can trained it for 200 epochs for best appearance), and the classifier is casually trained by me. The results and URLs are as follows.
 
