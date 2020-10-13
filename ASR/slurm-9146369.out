@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "feature_for_ASVspoof.py", line 64, in <module>
+    pase.load_pretrained(pase_model, load_last=True, verbose=False)
+  File "/home/jiangziyue/dat01/anaconda3/envs/torch/lib/python3.6/site-packages/PASE-0.1.1.dev0-py3.6.egg/pase/models/modules.py", line 344, in load_pretrained
+  File "/home/jiangziyue/dat01/anaconda3/envs/torch/lib/python3.6/site-packages/PASE-0.1.1.dev0-py3.6.egg/pase/models/modules.py", line 272, in load_pretrained_ckpt
+  File "/home/jiangziyue/dat01/anaconda3/envs/torch/lib/python3.6/site-packages/torch/serialization.py", line 525, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/jiangziyue/dat01/anaconda3/envs/torch/lib/python3.6/site-packages/torch/serialization.py", line 212, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/jiangziyue/dat01/anaconda3/envs/torch/lib/python3.6/site-packages/torch/serialization.py", line 193, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/home/jiangziyue/dat01/pase/pase+_ckpt_t100/FE_e65.ckpt'

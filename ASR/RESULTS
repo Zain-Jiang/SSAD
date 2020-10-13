@@ -1,0 +1,8 @@
+#!/bin/bash
+for x in $(find $1 -type d -name "dec"); do [ -d $x ] && echo $x | grep "${1:-.*}"  && grep WER $x/wer_* 2 | ./best_wer.sh; done
+for x in $(find $1 -type d -name "dec"); do [ -d $x ] && echo $x | grep "${1:-.*}"  && grep Sum $x/*score_*/*.sys 2 | ./best_wer.sh; done
+exit 0
+
+
+
+
