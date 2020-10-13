@@ -9,8 +9,8 @@
 *NOTE: Edit the cupy-cuda100 requirement in the file if needed depending on your CUDA version. Defaults to 10.0 now*
 
 ```bash
-#use this phrase to set the root path whenever you start
-export PYTHONPATH=.
+pip install -r requirements.txt # install the requirements
+export PYTHONPATH=. #use this phrase to set the root path whenever you start
 ```
 
 ## Pre-trained Model
